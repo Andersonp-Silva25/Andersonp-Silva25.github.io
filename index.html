@@ -6,55 +6,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&family=Work+Sans:wght@400&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Work Sans', sans-serif;
-            background-color: #C8C8C8;
-        }
-        #main-picture {
-            border-radius: 100%;
-        }
-
-        #main-title {
-            font-family: 'Raleway', sans-serif;
-        }
-        strong {
-            font-style: italic;
-        }
-        .size1 {
-            font-size: 15px;
-        }
-        .size2 {
-            font-size: 16px;
-        }
-        .size3 {
-            font-size: 17px;
-        }
-        .size4 {
-            font-size: 18px;
-        }
-        .size6 {
-            font-size: 19px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="main-title">Anderson Pereira da Silva</h1>
-    <img id="main-picture" src="image/foto-perfil.jpg" alt="Foto do Anderson Pereira da Silva" width="200px">
-    <p>
-        Olá, seja bem vindo (a) ao meu portfólio! <br>
-        Meu nome é <strong>Anderson Silva</strong>, tenho 29 anos e atualmente moro em <strong>Nova Iguaçu (RJ)</strong>. 
-    </p>
-    <a href="https://www.linkedin.com/in/ap-silva/" target="_blank">Saiba mais sobre mim [...]</a>
-    <h4>Lista de Habilidades</h4>
-    <ul>
-        <li class="size1">Unix</li>
-        <li class="size2">Bash</li>
-        <li class="size3">Git</li>
-        <li class="size4">Github</li>
-        <li class="size5">HTML</li>
-        <li class="size6">CSS</li>
-    </ul>
-    <a href="#main-picture">Foto Principal</a>
+    <div id="principal-esquerda">
+        <h1 id="main-title">Anderson Pereira da Silva</h1>
+        
+        <div id="foto-descricao">
+            <img id="main-picture" src="image/foto-perfil.jpg" alt="Foto do Anderson Pereira da Silva" width="200px">
+                    
+            <div id="descricao">
+                <p>
+                    Olá, seja bem vindo (a) ao meu portfólio! <br>
+                    Meu nome é <strong>Anderson Silva</strong>, tenho 29 anos e atualmente moro em <strong>Nova Iguaçu (RJ)</strong>. 
+                </p>
+            </div>
+        </div>
+
+        <div id="curriculo">
+            <a href="https://www.linkedin.com/in/ap-silva/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Andersonp-Silva25" target="_blank">Github</a>
+        </div>
+        
+        <h4>Minhas Skills</h4>
+        <ul>
+            <li class="size1">Unix</li>
+            <li class="size2">Bash</li>
+            <li class="size3">Git</li>
+            <li class="size4">Github</li>
+            <li class="size5">HTML</li>
+            <li class="size6">CSS</li>
+        </ul>
+        <a href="#main-picture">Foto Principal</a>
+        <ul>
+            <li>Gmail</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div id="principal-direita">
+        <div id="menu">
+            <ul id="menu-horizontal">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 </html>
