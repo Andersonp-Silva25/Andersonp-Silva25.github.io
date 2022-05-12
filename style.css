@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #C8C8C8;
+}
+#main-picture {
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-title {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+strong {
+    font-style: italic;
+}
+.size1 {
+    font-size: 15px;
+}
+.size2 {
+    font-size: 16px;
+}
+.size3 {
+    font-size: 17px;
+}
+.size4 {
+    font-size: 18px;
+}
+.size6 {
+    font-size: 19px;
+}
+
+#principal-esquerda {
+    display: inline-block;
+    max-width: 30%;
+    max-height: 100%;
+}
+
+#principal-direita {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: aqua;
+    vertical-align: top;
+}
+
+#menu {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#menu-horizontal {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-horizontal li {
+    display: inline;
+}
+
+ul li a {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+#curriculo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#curriculo a {
+    background-color: transparent;
+    padding: 10px;
+    border: #000 solid 1px;
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+#curriculo a:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+#descricao {
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: top;
+    padding-top: 55px;
+    margin-left: 10px;
+    
+}
+
+#foto-descricao {
+    max-width: 100%;
+    vertical-align: center;
+}
