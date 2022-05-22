@@ -1,4 +1,4 @@
-// Desafio 11
+// Gera um numero telefonico
 function generatePhoneNumber(numbers) {
   let arrayNumbers = [];
   let thriceRepeat = 0;
@@ -28,7 +28,7 @@ function generatePhoneNumber(numbers) {
   return phoneNumbers;
 }
 
-// Desafio 12
+// Verifica os valores para saber se é possivel ter um triangulo
 function triangleCheck(lineA, lineB, lineC) {
   let result = false;
 
@@ -47,7 +47,7 @@ function triangleCheck(lineA, lineB, lineC) {
   return result;
 }
 
-// Desafio 13
+// Calcula a quantidade de bebidas que contem na frase e adiciona 1 copo d´água para cada bebeida
 function hydrate(string) {
   let findNumbers = /\d+/g; //Expressão regular que faz encontrar um ou mais digitos/numeros de forma global
   let result = string.match(findNumbers); //Usa o .match para pesquisar os numeros com a expressao global(findNumbers) dentro do parametro passado

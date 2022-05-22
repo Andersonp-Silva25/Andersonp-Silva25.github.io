@@ -1,4 +1,4 @@
-// Desafio 1
+// Verificando se os valores são true ou false
 function compareTrue(value1, value2) {
   if(value1 === true && value2 === true){
     return true;
@@ -7,26 +7,26 @@ function compareTrue(value1, value2) {
   }
 }
 
-// Desafio 2
+// Calculando a área de um triangulo
 function calcArea(base, height) {
   return (base * height) / 2;
 }
 
-// Desafio 3
+// Separando uma frase por virgula
 function splitSentence(string) {
   let separator = " ";
   let array = string.split(separator);
   return array;
 }
 
-// Desafio 4
+// Concatenando elementos de um array
 function concatName(names) {
   let firstPosition = names[0];
   let lastPosition = names[names.length-1];
   return lastPosition +", "+ firstPosition;
 }
 
-// Desafio 5
+// Calculando os pontos de um jogo
 function footballPoints(wins, ties) {
   totalWins = wins * 3;
   totalTies = ties * 1;
@@ -34,7 +34,7 @@ function footballPoints(wins, ties) {
   return result;
 }
 
-// Desafio 6
+// Verifica quantas vezes o maior numero do array se repete
 function highestCount(numbers) {
   let higherNumber = numbers[0];
   let countNumbers = 0;
@@ -51,7 +51,7 @@ function highestCount(numbers) {
   return countNumbers;
 }
 
-// Desafio 7
+// Verifica qual dos gatos esta mais proximo do rato
 function catAndMouse(mouse, cat1, cat2) {
   let distanceCat1AndMouse = cat1 - mouse;
   let distanceCat2AndMouse = cat2 - mouse;
@@ -70,7 +70,7 @@ function catAndMouse(mouse, cat1, cat2) {
   }
 }
 
-// Desafio 8
+// Verifica se um numero é divisivel por 3, 5, ou 3 e 5 e retorna uma palavra diferente para cada divisão
 function fizzBuzz(numbers) {
   let result = [];
 
@@ -88,7 +88,7 @@ function fizzBuzz(numbers) {
   return result;
 }
 
-// Desafio 9
+// Codifica e Descodifica vogais em numereos e numeros em vogais
 function encode(string) {
   let result = "";
   for(let index = 0; index < string.length; index += 1){
@@ -128,7 +128,7 @@ function decode(string) {
   return result;
 }
 
-// Desafio 10
+// Gera um objeto atraves de um array em ordem alfabetica
 function techList(tech, name) {
   if(tech == undefined || tech == '' || tech == 0 || tech == []){
     return "Vazio!";
