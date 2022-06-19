@@ -1,235 +1,227 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fonts.css">
-    <title>Portifólio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="stars.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="image/notebook.png">
+  <title>Anderson Silva - Portifólio</title>
 </head>
 <body>
-  <header id="main-header">
-    <div id="main-logo">
-      <span>< Ap</span>Silva<span> ></span>
-    </div>
-    <nav id="main-nav">
-      <a href="#about-me">About me</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+  <header id="header">
+    <a id="logo" href="#">< <span>Ap</span>Silva /></a>
+
+    <nav id="nav">
+      <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-expanded="false" aria-controls="menu">
+        <div id="menu-text">Menu</div>
+        <span id="icon-mobile"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="#section-home">About me</a></li>
+        <li><a href="#section-skills">Skills</a></li>
+        <li><a href="#section-project">Projects</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main id="main-container">
+  <main id="main">
+    
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+        
+    <section id="section-home">
+      <section id="section-content">
+        <h1 id="h1">Olá, bem vindo(a) ao meu portifólio.</h1>
+        <h2 id="h2">Eu me chamo Anderson, e sou desenvolvedor web.</h2>
+        <h3 id="h3">Atualmente estudo na #Trybe, uma escola que ensina a programar, a aprender e a trabalhar.</h3>
+        
+        <a id="curriculo" href="Anderson Pereira da Silva.pdf" target="_blank">Curriculo</a>
 
-    <section id="about-me">
-      <img src="image/rio-de-janeiro-809756.jpg" alt="">
-      <section id="main-discribe">
-        <section id="describe">
-          <p class="text-discribe text-discribe-welcome">Olá, seja bem vindo (a) ao meu portfólio!</p>
-          <p class="text-discribe">Eu me chamo Anderson Pereira da Silva, ou apenas Anderson se preferir, sou formado em Análise e Desenvolvimento de Sistemas, tenho 29 anos, e atualmente moro em Nova Iguaçu (RJ).</p>
-          <p class="text-discribe">Hoje estudo desenvolvimento web na #<span class="trybe">Trybe</span>, uma escola que ensina a programar, a aprender e a trabalhar. </p>
-          <button id="more-information">Que tal uma espiadinha no meu currículo?</button>
-        </section>
-        <!-- <div id="photo"><img src="./image/foto-perfil.jpg" alt="Foto Anderson Silva"></div> -->
+        <nav id="social-media">
+          <a href="https://www.instagram.com/andersonp.sillva/" target="_blank"><ion-icon class="social-hover" name="logo-instagram"></ion-icon></a>
+          <a href="https://www.linkedin.com/in/ap-silva/" target="_blank"><ion-icon class="social-hover" name="logo-linkedin"></ion-icon></a>
+          <a href="https://github.com/Andersonp-Silva25" target="_blank"><ion-icon class="social-hover" name="logo-github"></ion-icon></a>
+        </nav>
       </section>
     </section>
 
-    <section id="skills">
-      <section id="my-skills">
-        <p class="title">Conheça um pouco das minhas Skills!!</p>
-
-        <section id="skills-icons">
-          <article class="skill-icon-container">
-            <p>Linux</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-          </article>
-          <article class="skill-icon-container">
-            <p>Shell e Bash</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-          </article>
-          <article class="skill-icon-container">
-            <p>Git</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />          
-          </article>
-          <article class="skill-icon-container">
-            <p>Github</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />                  
-          </article>
-          <article class="skill-icon-container">
-            <p>HTML</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />          
-          </article>
-          <article class="skill-icon-container">
-            <p>CSS</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />          
-          </article>
-          <article class="skill-icon-container">
-            <p>Javascript</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />          
-          </article>
-          <article class="skill-icon-container">
-            <p>Java</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-          </article>
-        </section>
-      </section>
-    </section>
-
-    <section id="projects">
-      <section id="my-projects">
-        <p class="title">Projects</p>
-
-        <section id="all-projects">
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/chapeu-de-mago.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title"><img class="foguete" src="image/projects-icons/foguete.png" alt=""> Trybe<span class="card-title-trybe">warts</span></h5>
-              <p class="card-text">Este foi meu projeto final no 6° Bloco na #<span class="trybe">Trybe</span> onde o objetivo era criar um formulario utilizando HTML, CSS e Javascript.</p>
-              <div class="project-btn">
-                <a class="btn-card">Preview</a>
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div>  
-
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/teste.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">To do List</h5>
-              <p class="card-text">O objetivo deste projeto era criar um gerenciador de tarefas, onde o usuario poderia inserir e remover itens a sua lista.</p>
-              <div class="project-btn">
-                <a class="btn-card">Preview</a>
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div>  
-
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/meme.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Meme Generator</h5>
-              <p class="card-text">Neste projeto o usuario pode criar memes a partir de imagens que ele possua, ou pode utilizar imagens pré definidas dentro do projeto.</p>
-              <div class="project-btn">
-                <a class="btn-card">Preview</a>
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div>  
-
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/roda-de-cores.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Color Guess</h5>
-              <p class="card-text">Jogo criado com HTML, CSS e Javascript onde o usuário deverar adivinhar a cor correta em cada rodada.</p>
-              <div class="project-btn">
-                <a class="btn-card">Preview</a>
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div>  
-
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/aplicativo.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Mistery Letter</h5>
-              <p class="card-text">Neste projeto ao digitar uma frase, cada palavra vira um recorte semelhante a de uma carta misteriosa.</p>
-              <div class="project-btn">
-                <a class="btn-card">Preview</a>
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div>  
-
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/paleta-de-cores.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title"><img class="foguete" src="image/projects-icons/foguete.png" alt=""> Pixels <span class="card-title-trybe">Art</span></h5>
-              <p class="card-text">Este foi meu projeto final no 5° Bloco na #<span class="trybe">Trybe</span>, onde o objetivo é criar um quadro que o usuário possa fazer desenhos com pixels.</p>
-              <div class="project-btn">
-                <a class="btn-card" href="projetos/pixel-art/" target="_blank">Preview</a>
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div>  
-
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/playground.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title"><img class="foguete" src="image/projects-icons/foguete.png" alt=""> Playground <span class="card-title-trybe">Functions</span></h5>
-              <p class="card-text">Este foi meu projeto final no 4° Bloco na #<span class="trybe">Trybe</span>, onde o objetivo era resolver desafios com funções em Javascript.</p>
-              <div class="project-btn">
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div> 
-          
-          <div class="card" style="width: 18rem;">
-            <div class="project-img">
-              <img src="image/projects-icons/livro.png" class="card-img-top" alt="Lessons Learned">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title"><img class="foguete" src="image/projects-icons/foguete.png" alt=""> Leassons <span class="card-title-trybe">Learned</span></h5>
-              <p class="card-text">Este foi o primeiro projeto que desenvolvi como estudante da #<span class="trybe">Trybe</span>, no 3° bloco utilizando apenas HTML e CSS.</p>
-              <div class="project-btn">
-                <a class="btn-card" href="projetos/lessons-learned/" target="_blank">Preview</a>
-                <a class="btn-card">Github</a>
-              </div>
-            </div>
-          </div> 
-        </section>
-      </section>
-    </section>
-
-    <section id="contact">
-      <section id="talk-me">
-        <p class="title-contact">Contacts</p>
-        <section id="main-contact-container">
-          <section id="contact-container">
-            <article class="contact-container-info">
-              <img src="./image/simbolo-do-google.png" alt="">
-              <a href="mailto:andersonp.silva25@gmail.com">andersonp.silva25@gmail.com</a>
+    <section id="section-skills">
+      <section id="section-skills-content">
+        <h1 class="title">Hard Skills</h1>
+        <hr class="div-content">
+        <section id="main-skills-container">
+          <section id="skills-icons">
+            <article class="skill-icon-container">
+              <p>Linux</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
             </article>
-            <article class="contact-container-info">
-              <img src="image/whatsapp.png" alt="">
-              <a href="https://bit.ly/3mO5YVC" target="_blank">(21) 97502-1009</a>
+            <article class="skill-icon-container">
+              <p>Shell e Bash</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
+            </article>
+            <article class="skill-icon-container">
+              <p>Git</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />          
+            </article>
+            <article class="skill-icon-container">
+              <p>Github</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />                  
+            </article>
+            <article class="skill-icon-container">
+              <p>HTML</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />          
+            </article>
+            <article class="skill-icon-container">
+              <p>CSS</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />          
+            </article>
+            <article class="skill-icon-container">
+              <p>Javascript</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />          
+            </article>
+            <article class="skill-icon-container">
+              <p>Java</p>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
             </article>
           </section>
-          <aside id="social-container">
-            <p>Minhas Redes</p>
-            <section id="social-container-icons">
-              <a id="github-img" href="https://github.com/Andersonp-Silva25" target="_blank"></a>
-              <a id="linkedin-img" href="https://www.linkedin.com/in/ap-silva/" target="_blank"></a>
-              <a id="instagram-img" href="https://www.instagram.com/andersonp.sillva/" target="_blank"></a>
-            </section>
-          </aside>
         </section>
       </section>
     </section>
 
-  </main>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
 
-  <footer id="footer">
-    <p>Direitos reservados à Anderson Pereira da Silva ©</p>
-  </footer>
+    <section id="section-project">
+      <section id="section-project-content">
+        <h1 class="title">Projetos</h1>
+        <hr class="div-content">
+        <section id="main-project-container">
+          <article class="project-container">
+            <img src="image/trybewarts.png" alt="">
+            
+            <section class="project-discribe">
+              <h3>Trybewarts</h3>
+              <h4>Este foi meu projeto final no 6° Bloco na #<span class="trybe">Trybe</span> onde o objetivo era criar um formulario, fazer validações, e praticar um pouco mais o Flexbox.</h4>
+              <h5>#HTML | #CSS |  #JavaScript</h5>
+              <section class="buttom-discribe">
+                <a href="projetos/trybewarts/" target="_blank">Preview</a>
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-6/trybewarts" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+          
+          <article class="project-container">
+            <img src="image/todolist.png" alt="">
+            
+            <section class="project-discribe">
+              <h3>To do List</h3>
+              <h4>O objetivo deste projeto era criar um gerenciador de tarefas, onde o usuario poderia inserir e remover itens a sua lista.</h4>
+              <h5>#HTML | #CSS |  #JavaScript</h5>
+              <section class="buttom-discribe">
+                <a href="projetos/todolist/" target="_blank">Preview</a>
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-5/Projetos-Bonus/todolist" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+
+          <article class="project-container">
+            <img src="image/color-guess.png" alt="">
+            
+            <section class="project-discribe">
+              <h3>Color Guess</h3>
+              <h4>Jogo criado com HTML, CSS e Javascript onde o usuário deverar adivinhar a cor correta em cada rodada.</h4>
+              <h5>#HTML | #CSS |  #JavaScript</h5>
+              <section class="buttom-discribe">
+                <a href="projetos/color-guess/" target="_blank">Preview</a>
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-5/Projetos-Bonus/color-guess" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+          
+          <article class="project-container">
+            <img src="image/mistery-letter.png" alt="">
+            
+            <section class="project-discribe">
+              <h3>Mistery Letter</h3>
+              <h4>Neste projeto ao digitar uma frase, cada palavra vira um recorte semelhante a de uma carta misteriosa.</h4>
+              <h5>#HTML | #CSS |  #JavaScript</h5>
+              <section class="buttom-discribe">
+                <a href="projetos/mistery-letter/" target="_blank">Preview</a>
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-5/Projetos-Bonus/mistery-letter" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+
+          <article class="project-container">
+            <img src="image/meme-generator.png" alt="">
+            
+            <section class="project-discribe">
+              <h3>Meme Generator</h3>
+              <h4>Neste projeto o usuario pode criar memes a partir de imagens que ele possua, ou pode utilizar imagens pré definidas dentro do projeto.</h4>
+              <h5>#HTML | #CSS |  #JavaScript</h5>
+              <section class="buttom-discribe">
+                <a href="projetos/meme-generator/" target="_blank">Preview</a>
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-5/Projetos-Bonus/meme-generator" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+
+          <article class="project-container">
+            <img src="image/pixel-art.png" alt="">
+            
+            <section class="project-discribe">
+              <h3>Pixels Art</h3>
+              <h4>Este foi meu projeto final no 5° Bloco na #Trybe, onde o objetivo é criar um quadro que o usuário possa fazer desenhos com pixels.</h4>
+              <h5>#HTML | #CSS |  #JavaScript</h5>
+              <section class="buttom-discribe">
+                <a href="projetos/pixel-art/" target="_blank">Preview</a>
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-5/pixel-art" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+
+          <article class="project-container">
+            <img src="image/code-5113374_1920.jpg" alt="">
+            
+            <section class="project-discribe">
+              <h3>Playground Functions</h3>
+              <h4>Este foi meu projeto final no 4° Bloco na #Trybe, onde o objetivo era resolver desafios com funções em Javascript.</h4>
+              <h5>#JavaScript</h5>
+              <section class="buttom-discribe">
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-4/playground-functions" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+
+          <article class="project-container">
+            <img src="image/lessons-learned.png" alt="">
+            
+            <section class="project-discribe">
+              <h3>Leassons Learned</h3>
+              <h4>Este foi o primeiro projeto que desenvolvi como estudante da #Trybe, no 3° bloco utilizando apenas HTML e CSS.</h4>
+              <h5>#HTML | #CSS</h5>
+              <section class="buttom-discribe">
+                <a href="projetos/lessons-learned/" target="_blank">Preview</a>
+                <a href="https://github.com/Andersonp-Silva25/Trybe-Projetos/tree/master/Bloco-3/lessons-learned" target="_blank">Github</a>
+              </section>
+            </section>
+          </article>
+        </section>
+      </section>
+    </section>
+
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </main>
   
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
